@@ -53,6 +53,12 @@ body {
     padding-top: 15px;
 }
 
+#centralContent.spread{
+    float: left;
+    width: 100%;
+    padding-top: 15px;
+}
+
 #wrapper #rightContent #rightCol {
     float: left;
     width: 33%;

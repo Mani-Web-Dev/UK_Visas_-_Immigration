@@ -10,6 +10,7 @@ body {
     background-color: #eee;
     padding: 0px;
     margin: 0px;
+    display: grid;
 }
 
 /*-------------Row Label Style---------------*/
@@ -80,6 +81,11 @@ div.row span.leftlabelregular
 {
     padding: 4px 0 4px 8px;
     width: 40%;
+}
+div.row span.fulllabelregular
+{
+    padding: 4px 0 4px 8px;
+    width: 100%;
 }
 
 div.row span.label
@@ -408,11 +414,13 @@ div.inputRow span.field input.textdata {
 
 div.inputRow {
 	text-align: left;
+    display: flex;
 }
 
 div.inputRow span.field {
-	padding: 2px 0 2px 0px ! important;
+	padding: 4px 8px 4px 8px ! important;
 	vertical-align: middle;
+    width: 60% !important;
 }
 
 div.inputRow span.leftlabelregular {
@@ -420,6 +428,15 @@ div.inputRow span.leftlabelregular {
 	font-weight: normal;
 	text-align: left;
 	width: 40%;
+	padding: 4px 0 4px 8px;
+	vertical-align: middle;
+}
+
+div.inputRow span.fulllabelregular {
+	float: left;
+	font-weight: normal;
+	text-align: left;
+	width: 100%;
 	padding: 4px 0 4px 8px;
 	vertical-align: middle;
 }
@@ -738,6 +755,7 @@ div.table {
 	text-align: left;
 	width:100%;
 	max-width:97%;
+    overflow-x: scroll;
 }
 
 table.data, table.data td {
