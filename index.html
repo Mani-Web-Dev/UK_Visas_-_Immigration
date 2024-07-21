@@ -16,18 +16,17 @@
 </head>
 
 <body>
-    <a href="./activeMessages.html"> Go to Draft page</a>
     <div id="centering">
         <div id="centeringInner">
             <!-- Logo header -->
             <header id="top">
                 <div id="page_header">
-                    <h1><a href="https://www.gov.uk/uk-visas-immigration"
-                            title="Home Office - UK Visas and Immigration"><img src="./assets/biaLogo.gif"
-                                alt="Home Office - UK Visas and Immigration"></a></h1>
+                    <h1>
+                        <a href="https://www.gov.uk/uk-visas-immigration" title="Home Office - UK Visas and Immigration"><img src="./assets/biaLogo.gif" alt="Home Office - UK Visas and Immigration"></a>
+                    </h1>
                 </div>
             </header>
-            <div class="clr">
+            <div class="clr">ß
                 <hr>
             </div>
             <div class="clr">
@@ -50,27 +49,19 @@
             <div id="wrapper">
                 <div id="leftNav">
                     <div class="inner">
-                        <form id="" name="" method="post" action=""
-                            enctype="application/x-www-form-urlencoded">
+                        <form id="" name="" method="post" action="" enctype="application/x-www-form-urlencoded">
                             <input type="hidden" name="" value="">
                             <ul id="main_nav">
-                                <li><a id="" name=""
-                                        href=""
-                                        accesskey="1">Home</a>
+                                <li><a id="" name="" href="" accesskey="1">Home</a>
                                 </li>
                                 <li>
                                     <!-- refer to the resource that is under the tomcat security  constraint so that a login 
-                         page could be displayed if the user is not already authenticated --><a
-                                        id="" name=""
-                                        href="">Log
+                         page could be displayed if the user is not already authenticated --><a id="" name="" href="">Log
                                         in</a>
                                 </li>
-                                <li><a id="" name=""
-                                        href="http://www.ukba.homeoffice.gov.uk/aboutus/contact/enquiries/"
-                                        target="blank">Contact</a>
+                                <li><a id="" name="" href="http://www.ukba.homeoffice.gov.uk/aboutus/contact/enquiries/" target="blank">Contact</a>
                                 </li>
-                            </ul><input type="hidden" name="" id="0"
-                                value="-1195765828856960106:-3586818504795858354" autocomplete="off">
+                            </ul><input type="hidden" name="" id="0" value="-1195765828856960106:-3586818504795858354" autocomplete="off">
                         </form>
                     </div>
                 </div>
@@ -82,15 +73,11 @@
                             <a href="https://www.points.homeoffice.gov.uk/gui-sponsor-jsf/SponsorHome.faces">sponsor
                                 application</a>.
                         </p>
-                        <p>To log into SMS, enter your SMS user ID and password. You <em>MUST</em> be an appointed Level
-                            1 or 2 user to access SMS and to use any functions in the system. Misuse of SMS user IDs may
-                            lead to action being taken against you.</p>
-                        <p>If you are copying and pasting your user ID and/or password, please ensure that spaces are
-                            not included at the end. If you enter an incorrect user ID or password three times, your
-                            account will be locked for approximately 20 minutes. If this occurs, you should try again
-                            later.</p>
-                        <p>You must have Javascript enabled on your browser and a PDF viewer installed to use some
-                            functions in SMS.</p>
+                        <p>To log into SMS, enter your SMS user ID and password. You <em>MUST</em> be an appointed Level 1 or 2 user to access SMS and to use any functions in the system. Misuse of SMS user IDs may lead to action being taken against you.</p>
+                        <p>If you are copying and pasting your user ID and/or password, please ensure that spaces are not included at the end. If you enter an incorrect user ID or password three times, your account will be locked for approximately 20 minutes.
+                            If this occurs, you should try again later.
+                        </p>
+                        <p>You must have Javascript enabled on your browser and a PDF viewer installed to use some functions in SMS.</p>
                         <p><em>You must never share your SMS user ID and/or password with another person. Misuse of SMS
                                 user IDs and/or passwords may lead to action being taken against you.</em></p>
 
@@ -104,9 +91,8 @@
                         <div class="clr">
                         </div>
 
-                        <form id="smslogin" method="post" action="j_security_check">
+                        <form id="smslogin" method="post" action="" onsubmit="event.preventDefault()">
                             <div class="fieldset">
-
                                 <span class="question">
                                     <span class="questionText"><label>SMS log in</label>
                                     </span>
@@ -150,33 +136,25 @@
                             </div>
                             <br>
 
-                            <span class="buttonBar"><input id="login" type="submit" name="login" value="Log in"
+                            <span class="buttonBar"><input id="login" type="submit" name="login" value="Log in" onclick="window.location.href='activeMessages.html';"
                                     class="submit">
-
                             </span>
 
                             <script>
-                                window.onload = function () {
+                                window.onload = function() {
                                     document.forms['smslogin'].elements['j_username'].focus();
                                 }
                             </script>
                         </form>
-                        <form id="j_idt276" name="j_idt276" method="post"
-                            action="/gui-sms-jsf/login/SMS-002-Login.faces;jsessionid=4BE09005A03B34FCB3D2CB1FDFA1E873"
-                            enctype="application/x-www-form-urlencoded"
-                            style="display: inline; float: right; padding-right: 3px; ">
+                        <form id="j_idt276" name="j_idt276" method="post" action="/gui-sms-jsf/login/SMS-002-Login.faces;jsessionid=4BE09005A03B34FCB3D2CB1FDFA1E873" enctype="application/x-www-form-urlencoded" style="display: inline; float: right; padding-right: 3px; ">
                             <input type="hidden" name="j_idt276" value="j_idt276">
-                            <input id="j_idt276:Cancel" type="submit" name="j_idt276:Cancel" value="Cancel"
-                                class="submit" fdprocessedid="wf35nl"><input type="hidden" name="javax.faces.ViewState"
-                                id="j_id1:javax.faces.ViewState:1" value="-1195765828856960106:-3586818504795858354"
+                            <input id="j_idt276:Cancel" type="submit" name="j_idt276:Cancel" value="Cancel" class="submit" fdprocessedid="wf35nl"><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:1" value="-1195765828856960106:-3586818504795858354"
                                 autocomplete="off">
                         </form>
                     </div>
                     <div id="rightCol">
                         <div class="inner">
-                            <form id="j_idt280" name="j_idt280" method="post"
-                                action="/gui-sms-jsf/login/SMS-002-Login.faces;jsessionid=4BE09005A03B34FCB3D2CB1FDFA1E873"
-                                enctype="application/x-www-form-urlencoded">
+                            <form id="j_idt280" name="j_idt280" method="post" action="/gui-sms-jsf/login/SMS-002-Login.faces;jsessionid=4BE09005A03B34FCB3D2CB1FDFA1E873" enctype="application/x-www-form-urlencoded">
                                 <input type="hidden" name="j_idt280" value="j_idt280">
 
                                 <div class="fbAppForms">
@@ -186,35 +164,25 @@
                                     </div>
 
                                     <ul>
-                                        <li><a id="j_idt280:user_manual" name="j_idt280:user_manual"
-                                                href="https://www.gov.uk/government/collections/sponsorship-information-for-employers-and-educators#user-manuals-sponsorship-management-system-sms"
-                                                target="User_Manual">
+                                        <li><a id="j_idt280:user_manual" name="j_idt280:user_manual" href="https://www.gov.uk/government/collections/sponsorship-information-for-employers-and-educators#user-manuals-sponsorship-management-system-sms" target="User_Manual">
                                                 SMS user guides (opens in a new window)
                                             </a>
                                         </li>
-                                        <li><a id="j_idt280:sms_system" name="j_idt280:sms_system"
-                                                href="https://www.gov.uk/browse/visas-immigration/sponsoring-workers-students"
-                                                target="SMS_System">
+                                        <li><a id="j_idt280:sms_system" name="j_idt280:sms_system" href="https://www.gov.uk/browse/visas-immigration/sponsoring-workers-students" target="SMS_System">
                                                 Information for sponsors (opens in a new window)
                                             </a>
                                         </li>
-                                        <li><a id="j_idt280:accessibility" name="j_idt280:accessibility"
-                                                href="/gui-sms-jsf/AccessibilityStatement.faces;jsessionid=4BE09005A03B34FCB3D2CB1FDFA1E873"
-                                                target="accessibility">
+                                        <li><a id="j_idt280:accessibility" name="j_idt280:accessibility" href="/gui-sms-jsf/AccessibilityStatement.faces;jsessionid=4BE09005A03B34FCB3D2CB1FDFA1E873" target="accessibility">
                                                 Accessibility Statement (opens in a new window)
                                             </a>
                                         </li>
-                                        <li><a id="j_idt280:cookies" name="j_idt280:cookies"
-                                                href="/gui-sms-jsf/CookieStatement.faces;jsessionid=4BE09005A03B34FCB3D2CB1FDFA1E873"
-                                                target="cookies">
+                                        <li><a id="j_idt280:cookies" name="j_idt280:cookies" href="/gui-sms-jsf/CookieStatement.faces;jsessionid=4BE09005A03B34FCB3D2CB1FDFA1E873" target="cookies">
                                                 Cookie Statement (opens in a new window)
                                             </a>
                                         </li>
 
                                     </ul>
-                                </div><input type="hidden" name="javax.faces.ViewState"
-                                    id="j_id1:javax.faces.ViewState:2" value="-1195765828856960106:-3586818504795858354"
-                                    autocomplete="off">
+                                </div><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:2" value="-1195765828856960106:-3586818504795858354" autocomplete="off">
                             </form>
                         </div>
                     </div>
